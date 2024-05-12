@@ -1,0 +1,45 @@
+thead {
+  display: block;
+}
+tbody {
+  display: block;
+}
+
+tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  background: black;
+  color: white;
+
+  border: 1px solid gray;
+  width: 165px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  color: black;
+
+  border: 1px solid gray;
+  width: 165px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.raw-info {
+  background: white;
+}
+
+.raw-info:nth-child(even) {
+  background-color: darkgray;
+}

@@ -36,10 +36,10 @@ td {
   align-items: center;
 }
 
-.raw-info {
+.info {
   background: white;
 }
 
-.raw-info:nth-child(even) {
+.info:nth-child(even) {
   background-color: darkgray;
 }
